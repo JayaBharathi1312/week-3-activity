@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Book Cart</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+		
+		table {
+			width: 100%;
+			border-collapse: collapse;
+		}
+		
+		th, td {
+			border: 1px solid #ddd;
+			padding: 8px;
+			text-align: center;
+		}
+		
+		th {
+			background-color: #f0f0f0;
+		}
+		
+		.delete-btn {
+			background-color: #f3835a;
+			color: #fff;
+			border: none;
+			padding: 5px 10px;
+			cursor: pointer;
+		}
+		.delete-btn:hover {
+ 			 background-color: #ca6db9; /* darker green on hover */
+		}
+		.proceed-btn {
+  			background-color: #d5cc51; /* green background color */
+  			color: #fff; /* white text color */
+ 			 padding: 10px 20px; /* padding for the button */
+ 			 border: none; /* no border */
+  			 border-radius: 5px; /* rounded corners */
+ 			 cursor: pointer; /* change cursor to pointer on hover */
+			 display: block; /* display as block element */
+		     margin: 0 auto; /* center horizontally */
+}
+
+.proceed-btn:hover {
+  background-color: #5aaf9c; /* darker green on hover */
+}
+	</style>
+</head>
+<body>
+	<h2>Book Cart</h2>
+	<table>
+		<tr>
+			<th>Book Image</th>
+			<th>Book Name</th>
+			<th>Author</th>
+			<th>Publication</th>
+			<th>Price</th>
+			<th>Quantity</th>
+			<th>Total</th>
+			<th></th>
+		</tr>
+		<tr>
+			<td><img src="ece2.jpg" width="50" height="50"></td>
+			<td>CRACKING THE ECE SKILLS</td>
+			<td>Priyanka</td>
+			<td>TechSar</td>
+			<td>&#8377; 499</td>
+			<td>2</td>
+			<td>&#8377; 998</td>
+			<td><button class="delete-btn">Remove</button></td>
+		</tr>
+		<tr>
+			<td><img src="cse3.jpg" width="50" height="50"></td>
+			<td>COMPUTERS MADE EASY</td>
+			<td>James Bernstein</td>
+			<td>Navdeep</td>
+			<td>&#8377; 699</td>
+			<td>1</td>
+			<td>&#8377; 699</td>
+			<td><button class="delete-btn">Remove</button></td>
+		</tr>
+        <tr>
+			<td><img src="eee3.jpg" width="50" height="50"></td>
+			<td>SIGNALS AND SYSTEMS</td>
+			<td>Ramesh Babu</td>
+			<td>Scitech</td>
+			<td>&#8377; 676</td>
+			<td>1</td>
+			<td>&#8377; 676</td>
+			<td><button class="delete-btn">Remove</button></td>
+		</tr>
+        <tr>
+			<td><img src="civil2.jpg" width="50" height="50"></td>
+			<td>A BASICS OF CIVIL</td>
+			<td>Chand</td>
+			<td>Aayat</td>
+			<td>&#8377; 549</td>
+			<td>1</td>
+			<td>&#8377; 549</td>
+			<td><button class="delete-btn">Remove</button></td>
+		</tr>
+		
+	</table>
+	<br><br><button class="proceed-btn">Proceed</button>
+</body>
+</html>
